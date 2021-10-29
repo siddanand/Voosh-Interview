@@ -1,0 +1,52 @@
+.container{
+  flex-wrap: wrap;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+#box{
+  border-radius: 10px;
+  min-width: 30%;
+  margin-bottom: 20px;
+  display: flex;
+}
+#avatar{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#info{
+  border-radius: 10px;
+  width: 70%;
+  border-left: 1px solid lightgrey;
+  background: black;
+  padding: 10px;
+}
+#infoheading{
+  font-family: serif;
+  padding: 5px;
+  color: grey;
+}
+#infodescr{
+  font-family: sans-serif;
+  color: lightgrey;
+}
+#infolink{
+  text-decoration: none;
+  color:grey;
+  border-radius: 10px;
+  width: 100%;
+  background: lightblue;
+  text-align: center;
+  margin-top: 12px;
+}
+#infobutton{
+  float: right;
+  margin-top: 20px;
+  padding: 5px;
+  border:none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}

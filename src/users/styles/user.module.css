@@ -1,0 +1,52 @@
+.container1{
+  display: flex;
+}
+#avatar{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  padding: 50px;
+  border-right: 10px solid lightgrey;
+}
+#username{
+  padding-left: 30px;
+  font-size:20px;
+  letter-spacing: 10px;
+  margin: 25px;
+}
+@media(max-width:600px){
+  #avatar{
+    padding: 10px;
+  }
+  #username{
+    letter-spacing: 0px;    
+  }
+}
+.container2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#heading{
+  font-size: 20px;
+  color:grey;
+}
+#box{
+  border:1px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+#button{
+  float: right;
+  margin-top: -30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border:none;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
